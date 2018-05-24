@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "easymidi": "0.0.4",
+    "express": "^4.16.3",
+    "midi": "^0.9.5",
+    "midi-help": "^0.2.1",
+    "websocket": "^1.0.25"
+  }
 }

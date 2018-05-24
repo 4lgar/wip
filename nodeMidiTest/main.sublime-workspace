@@ -1,0 +1,228 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"reac",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/4lgar/Documents/dev/wip/webMpc/frontend/package.json",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/backend/src/index.js",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/frontend/.gitignore",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/frontend/package.json",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/backend/package.json",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/frontend/.babelrc",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/frontend/configs/webpack.config.js",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/frontend/src/js/app.js",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/backend/configs/models/Customers.js",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/backend/configs/runConfig.js",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/backend/.gitignore",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/.gitignore",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/backend/dist/configs/runConfig.js",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/backend/src/models/Customers.js",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/backend/src/configs/models/Customers.js",
+		"/Users/4lgar/Documents/dev/donsys-fullstack-template/backend/src/configs/runConfig.js",
+		"/Users/4lgar/Documents/dev/reactERP/reactERP/backend/src/server.js",
+		"/Users/4lgar/Documents/dev/reactERP/reactERP/src/routes/app.jsx",
+		"/Users/4lgar/Documents/dev/reactERP/reactERP/src/components/Footer/Footer.jsx",
+		"/Users/4lgar/Documents/dev/reactERP/material-dashboard-react_default/README.md",
+		"/Users/4lgar/Documents/dev/reactERP/reactERP/src/models/Customers.js",
+		"/Users/4lgar/Documents/dev/reactERP/reactERP/src/containers/App/App.jsx",
+		"/Users/4lgar/Documents/dev/reactERP/reactERP/src/components/Header/HeaderLinks.jsx",
+		"/Users/4lgar/Documents/dev/reactERP/material-dashboard-react_default/src/routes/app.jsx",
+		"/Users/4lgar/Documents/dev/reactERP/reactERP/src/views/Dashboard/Dashboard.jsx",
+		"/Users/4lgar/Documents/dev/reactERP/reactERP/package.json",
+		"/Users/4lgar/Documents/dev/reactERP/reactERP/public/index.html",
+		"/Users/4lgar/Documents/dev/reactERP/src/views/Dashboard/Dashboard.jsx",
+		"/Users/4lgar/Documents/dev/reactERP/public/index.html",
+		"/Users/4lgar/Downloads/material-dashboard-react-v1.1.0/src/index.js",
+		"/Applications/Waves/Waveshells/WaveShell-AAX 9.3.aaxplugin/Contents/Resources/SHUF_S1 MS Matrix.xml"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Terminal (bash)"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

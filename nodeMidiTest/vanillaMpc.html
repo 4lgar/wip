@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vailla Mpc</title>
+  <script type="text/javascript">
+    
+const socket = new WebSocket('ws://192.168.1.103:8080', 'echo-protocol');
+
+var noteOn = function(note){
+
+  console.log("noteOn");
+
+  socket.send(JSON.stringify({
+    action: "noteOn",
+    key: note
+  }));
+
+};
+
+var noteOff = function(note){
+
+  console.log("noteOff");
+
+  socket.send(JSON.stringify({
+    action: "noteOff",
+    key: note
+  }));
+
+};
+
+
+  </script>
+</head>
+<body>
+
+
+  <button className="noSelect" touchstart="noteOn(60)" touchend="noteOff(60)">60</button>
+  <button className="noSelect">62</button>
+  <button className="noSelect">63</button>
+  <button className="noSelect">64</button>
+  <button className="noSelect">65</button>
+  <button className="noSelect">66</button>
+
+</body>
+</html>
