@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import NoteButton from '../../components/NoteButton/NoteButton.js';
+import WebMPC from '../../components/WebMPC/WebMPC.js';
 
 const socket = new WebSocket('ws://192.168.1.144:8080', 'echo-protocol');
 
@@ -33,14 +33,8 @@ class App extends Component {
     return (
 
       <div>
-        <h1>Hey :)</h1>
 
-        <NoteButton noteToPlay="60" socket={socket} />
-        <NoteButton noteToPlay="62" socket={socket} />
-        <NoteButton noteToPlay="63" socket={socket} />
-        <NoteButton noteToPlay="65" socket={socket} />                        
-        <NoteButton noteToPlay="67" socket={socket} />  
-        <NoteButton noteToPlay="68" socket={socket} />
+        <WebMPC socket={socket} />
 
       </div>
 
