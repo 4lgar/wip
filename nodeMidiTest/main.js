@@ -15,37 +15,35 @@ var output = new midi.output();
 // Open the first available output port. 
 output.openPort(0);
 
+// Set up a new input.
+var input = new midi.input();
 
+// Count the available input ports.
+input.getPortCount();
 
+// Get the name of a specified input port.
+input.getPortName(0);
 
-app.get('/noteOn', function (req, res) {
-
-  output.sendMessage(midiHelp.noteOn(60, 127));
-  res.send('ok');
-
-})
-
-app.get('/noteOff', function (req, res) {
-
-  output.sendMessage(midiHelp.noteOff(60, 127));
-  res.send('ok');
-
-})
-
-app.get('/', function(req, res){
-
-  console.log("sendFile");
-
-  res.sendFile('vanillaMpc.html');
-
-})
-
-app.listen(3030, () => {
-
-  console.log("Listening on port 3030");
-
+// Configure a callback.
+input.on('message', function(deltaTime, message) {
+  // The message is an array of numbers corresponding to the MIDI bytes:
+  //   [status, data1, data2]
+  // https://www.cs.cf.ac.uk/Dave/Multimedia/node158.html has some helpful
+  // information interpreting the messages.
+  console.log('m:' + message + ' d:' + deltaTime);
 });
 
+// Open the first available input port.
+input.openPort(0);
+
+// Sysex, timing, and active sensing messages are ignored
+// by default. To enable these message types, pass false for
+// the appropriate type in the function below.
+// Order: (Sysex, Timing, Active Sensing)
+// For example if you want to receive only MIDI Clock beats
+// you should use
+// input.ignoreTypes(true, false, true)
+input.ignoreTypes(false, false, false);
 
 
 
@@ -75,6 +73,8 @@ function originIsAllowed(origin) {
   return true;
 }
  
+
+
 wsServer.on('request', function(request) {
 
     if (!originIsAllowed(request.origin)) {
