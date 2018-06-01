@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import WebMPC from '../../components/WebMPC/WebMPC.js';
 
-const socket = new WebSocket('ws://192.168.1.144:8080', 'echo-protocol');
+const socket = new WebSocket('ws://10.192.92.225:8080', 'echo-protocol');
 
 var noteOn = function(note){
 

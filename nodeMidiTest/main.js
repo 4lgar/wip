@@ -76,6 +76,7 @@ function originIsAllowed(origin) {
 }
  
 wsServer.on('request', function(request) {
+
     if (!originIsAllowed(request.origin)) {
       // Make sure we only accept requests from an allowed origin
       request.reject();
@@ -89,16 +90,18 @@ wsServer.on('request', function(request) {
 
     connection.on('message', function(message) {
 
-		var msg = JSON.parse(message.utf8Data);
+  		var msg = JSON.parse(message.utf8Data);
 
-		switch(msg.action){
-			case "noteOn":
-    		output.sendMessage(midiHelp.noteOn(msg.key, 127));
-			break;
-			case "noteOff":
-			output.sendMessage(midiHelp.noteOff(msg.key, 127));
-			break;
-		}
+      console.log(msg.key);
+
+  		switch(msg.action){
+  			case "noteOn":
+      		output.sendMessage(midiHelp.noteOn(msg.key, 90));
+  			break;
+  			case "noteOff":
+  			  output.sendMessage(midiHelp.noteOff(msg.key, 90));
+  			break;
+  		}
 
 
 

@@ -9,7 +9,7 @@ import NoteButton from '../../components/NoteButton/NoteButton.js';
 import MidiHelper from '../../classes/MidiHelper.js';
 
 const nbrOfNote = 9;
-const nbrOfOctave = 8;
+const nbrOfOctave = 7;
 const baseOctave = 4;
 
 const marksBaseNote = {
@@ -36,10 +36,6 @@ const marksOctave = {
   5 : "5",
   6 : "6",
   7 : "7",
-  8 : "8",
-  9 : "9",
-  10: "10",
-  11: "11",
 }
 
 

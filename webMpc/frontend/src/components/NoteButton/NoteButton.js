@@ -7,8 +7,6 @@ class NoteButton extends Component {
 
     e.preventDefault();
 
-    console.log("noteOn!");
-
     //fetch("http://192.168.1.112:3030/noteOn");
 
      this.props.socket.send(JSON.stringify({
@@ -22,8 +20,6 @@ class NoteButton extends Component {
   noteOff(e){
 
     e.preventDefault();
-
-    console.log("noteOff");
 
     //fetch("http://192.168.1.112:3030/noteOff");
 
@@ -39,7 +35,7 @@ class NoteButton extends Component {
     return (
 
 
-      <button className="noSelect" onTouchEnd={this.noteOff.bind(this)} onTouchStart={this.noteOn.bind(this)}>{this.props.noteToPlay}</button>
+      <div className="noSelect noteButton" onTouchEnd={this.noteOff.bind(this)} onTouchStart={this.noteOn.bind(this)}>{this.props.noteToPlay}</div>
 
       //<button className="noSelect" onClick={this.noteOn.bind(this)}>{this.props.noteToPlay}</button>
 

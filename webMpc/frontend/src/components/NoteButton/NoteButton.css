@@ -1,4 +1,7 @@
-button{
+.noteButton{
 	width: 100px;
 	height: 100px;
+	display: inline-block;
+	background-color: grey;
+	border: 1px solid black;
 }
